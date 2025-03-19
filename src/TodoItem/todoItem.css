@@ -1,0 +1,21 @@
+.TodoItem {
+    background-color: #FAFAFA;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41,0.15);
+}
+
+.TodoItem-p {
+    margin: 24PX 0 24PX 24PX;
+    width: calc(100%-120PX);
+    font-size: 18PX;
+    line-height: 24PX;
+    font-weight: 400;
+}
+
+.TodoItem-p--complete {
+    text-decoration: line-through;
+}
