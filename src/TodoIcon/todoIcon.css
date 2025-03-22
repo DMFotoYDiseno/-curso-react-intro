@@ -2,8 +2,8 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
-    height: 48px;
-    width:  48px;
+    height: 24px;
+    width:  24px;
     font-size: 24px;
     font-weight: bold;
     /* background-color: #CCC; */
@@ -20,7 +20,7 @@
 
 .Icon-container-delete {
     position: absolute;
-    top: -24px;
+    top: -12px;
     right: 0;
 }
 
@@ -29,8 +29,8 @@
 }
 
 .Icon-svg {
-    width: 24 px;
-    height: 24 px;
+    width: 12 px;
+    height: 12 px;
 }
 
 .Icon-container-check:hover .Icon-svg {
